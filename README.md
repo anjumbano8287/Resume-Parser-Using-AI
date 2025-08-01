@@ -50,7 +50,6 @@ Images that helps you a lot
 <img width="476" height="267" alt="Screenshot 2025-07-31 204153" src="https://github.com/user-attachments/assets/73a2da07-69c2-48e0-85a5-f715caf0b16f" />
 <img width="191" height="204" alt="Screenshot 2025-07-31 204214" src="https://github.com/user-attachments/assets/5a7d8f5c-e852-4af3-8ced-22dd0c7f1cfd" />
 
-<img width="1485" height="901" alt="Screenshot 2025-07-31 204230" src="https://github.com/user-attachments/assets/7adcce5f-0194-46bb-881c-2ae62bc81f55" />
 
 thankyou for watch
 

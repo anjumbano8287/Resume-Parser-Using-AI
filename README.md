@@ -23,54 +23,21 @@ step7:You can store the interested candidate into your Recorded database for fur
 
 
 Details working of it
-1. Upload Resume File
-User uploads a resume in PDF or DOCX format.
+📄 Supports PDF & DOCX – Upload resumes in either format
 
-2. Extract Raw Text
-The tool uses:
+🤖 AI-based Parsing – Uses NLP to extract useful information
 
-pdfminer.six to extract text from PDF files, or
+🧠 Skill Extraction – Automatically detects and lists candidate skills
 
-docx2txt for DOCX files.
+🎓 Education & Experience Detection – Finds academic and job details
 
-3. Clean and Preprocess Text
-Removes extra spaces, special characters, or line breaks.
+📧 Contact Info Extraction – Grabs phone number and email using regex
 
-Prepares the text for NLP processing.
+📊 Structured Output – Returns data in JSON or CSV format
 
-4. Natural Language Processing
-Uses spaCy to:
+🌐 Web Interface (optional) – Easy-to-use frontend with Flask or Streamlit
 
-Tokenize the text
-
-Identify named entities (like names, locations, etc.)
-
-Extract key sections like Education, Skills, Experience
-
-5. Extract Specific Information
-Uses regular expressions (re) and rules to extract:
-
-📧 Email
-
-📞 Phone number
-
-🧠 Skills
-
-🎓 Education
-
-👤 Name (optional: from filename or content)
-
-6. Structure the Data
-The extracted data is organized into a structured format:
-
-JSON
-
-CSV
-
-or displayed in the web interface
-
-7. Display / Export
-The final result is shown on a web page (using Flask/Streamlit) or saved to a file.
+⚙️ Customizable – Add more fields or logic as needed
 
 
 
